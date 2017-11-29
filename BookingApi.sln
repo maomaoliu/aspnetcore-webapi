@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApi", "BookingApi\BookingApi.csproj", "{3E290B2A-8BE9-49ED-ABDB-1302AAF6E4BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApi.Test", "BookingApi.Test\BookingApi.Test.csproj", "{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{3E290B2A-8BE9-49ED-ABDB-1302AAF6E4BB}.Release|x64.Build.0 = Release|x64
 		{3E290B2A-8BE9-49ED-ABDB-1302AAF6E4BB}.Release|x86.ActiveCfg = Release|x86
 		{3E290B2A-8BE9-49ED-ABDB-1302AAF6E4BB}.Release|x86.Build.0 = Release|x86
+		{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}.Debug|x64.ActiveCfg = Debug|x64
+		{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}.Debug|x64.Build.0 = Debug|x64
+		{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}.Debug|x86.ActiveCfg = Debug|x86
+		{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}.Debug|x86.Build.0 = Debug|x86
+		{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}.Release|x64.ActiveCfg = Release|x64
+		{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}.Release|x64.Build.0 = Release|x64
+		{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}.Release|x86.ActiveCfg = Release|x86
+		{7BBAAD94-DAC2-4663-A6D7-0B58A5EF8442}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
