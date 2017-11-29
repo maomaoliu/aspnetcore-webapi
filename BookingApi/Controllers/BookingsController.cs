@@ -4,13 +4,15 @@ using Microsoft.AspNetCore.Mvc;
 namespace BookingApi.Controllers
 {
     [Route("api/[controller]")]
+    [Route("api")]
+    [Route("/")]
     public class BookingsController : Controller
     {
         // GET api/bookings
         [HttpGet]
         public IEnumerable<string> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Booking1", "Booking2" };
         }
 
         // GET api/bookings/5
