@@ -15,27 +15,34 @@ namespace BookingApi.Controllers
 
         // GET api/bookings/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IActionResult Get(int id)
         {
-            return "value";
+            return Ok("value");
         }
 
         // POST api/bookings
         [HttpPost]
-        public void Post([FromBody]string value)
+        public IActionResult Post([FromBody]string value)
         {
+            return CreatedAtAction("Get", value);
         }
 
         // PUT api/bookings/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        public IActionResult Put(int id, [FromBody]string value)
         {
+            if (id > 2)
+            {
+                return NotFound();
+            }
+            return NoContent();
         }
 
         // DELETE api/bookings/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public IActionResult Delete(int id)
         {
+            return NoContent();
         }
     }
 }
